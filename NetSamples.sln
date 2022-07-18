@@ -83,9 +83,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.DelegatesRealSam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.AnonymousMethodsAndLambda", "NetSamples.AnonymousMethodsAndLambda\NetSamples.AnonymousMethodsAndLambda.csproj", "{86234B34-C72A-40A3-A1C8-C82D539C1121}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Events", "NetSamples.Events\NetSamples.Events.csproj", "{4D74DC16-4BDE-4704-B8B9-5C04027F151D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Events", "NetSamples.Events\NetSamples.Events.csproj", "{4D74DC16-4BDE-4704-B8B9-5C04027F151D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.ActionFuncPredicate", "NetSamples.ActionFuncPredicate\NetSamples.ActionFuncPredicate.csproj", "{117D8AA4-A269-463D-A3CC-FCA7592014D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.ActionFuncPredicate", "NetSamples.ActionFuncPredicate\NetSamples.ActionFuncPredicate.csproj", "{117D8AA4-A269-463D-A3CC-FCA7592014D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Extensions", "NetSamples.Extensions\NetSamples.Extensions.csproj", "{E8C5D1ED-4AE7-4949-A493-74B441F93D4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Linq", "NetSamples.Linq\NetSamples.Linq.csproj", "{75E51A73-F246-4B99-B364-665F6CC8D716}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +265,14 @@ Global
 		{117D8AA4-A269-463D-A3CC-FCA7592014D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{117D8AA4-A269-463D-A3CC-FCA7592014D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{117D8AA4-A269-463D-A3CC-FCA7592014D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C5D1ED-4AE7-4949-A493-74B441F93D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C5D1ED-4AE7-4949-A493-74B441F93D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C5D1ED-4AE7-4949-A493-74B441F93D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C5D1ED-4AE7-4949-A493-74B441F93D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75E51A73-F246-4B99-B364-665F6CC8D716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E51A73-F246-4B99-B364-665F6CC8D716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E51A73-F246-4B99-B364-665F6CC8D716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E51A73-F246-4B99-B364-665F6CC8D716}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
