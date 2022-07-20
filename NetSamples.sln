@@ -87,9 +87,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Events", "NetSam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.ActionFuncPredicate", "NetSamples.ActionFuncPredicate\NetSamples.ActionFuncPredicate.csproj", "{117D8AA4-A269-463D-A3CC-FCA7592014D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Extensions", "NetSamples.Extensions\NetSamples.Extensions.csproj", "{E8C5D1ED-4AE7-4949-A493-74B441F93D4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Extensions", "NetSamples.Extensions\NetSamples.Extensions.csproj", "{E8C5D1ED-4AE7-4949-A493-74B441F93D4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Linq", "NetSamples.Linq\NetSamples.Linq.csproj", "{75E51A73-F246-4B99-B364-665F6CC8D716}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetSamples.Linq", "NetSamples.Linq\NetSamples.Linq.csproj", "{75E51A73-F246-4B99-B364-665F6CC8D716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.ThreadSleep", "NetSamples.ThreadSleep\NetSamples.ThreadSleep.csproj", "{6573FADF-3F66-4B4A-B039-26A7BAD3BAEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetSamples.Threads", "NetSamples.Threads\NetSamples.Threads.csproj", "{22BC1ADB-E2E2-4B45-B931-864D1AFDDF7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -273,6 +277,14 @@ Global
 		{75E51A73-F246-4B99-B364-665F6CC8D716}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75E51A73-F246-4B99-B364-665F6CC8D716}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75E51A73-F246-4B99-B364-665F6CC8D716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6573FADF-3F66-4B4A-B039-26A7BAD3BAEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6573FADF-3F66-4B4A-B039-26A7BAD3BAEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6573FADF-3F66-4B4A-B039-26A7BAD3BAEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6573FADF-3F66-4B4A-B039-26A7BAD3BAEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22BC1ADB-E2E2-4B45-B931-864D1AFDDF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22BC1ADB-E2E2-4B45-B931-864D1AFDDF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22BC1ADB-E2E2-4B45-B931-864D1AFDDF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22BC1ADB-E2E2-4B45-B931-864D1AFDDF7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
